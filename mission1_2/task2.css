@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+      background-color: #dedede;
+      margin: 0px;
+      font-family: 'Microsoft YaHei';
+}
+ .tittle{
+      background-color: black;
+      height: 60px;
+ }
+ .logo{
+      position: absolute;
+      float: left;
+      	padding-left: 10px;
+	height: 60px;
+	width: 60px;
+  }
+  .tittlelink{
+      float: right;
+      padding-top:25px; 
+      padding-right: 5px;
+  }
+  .article{
+    
+    padding: 15px;
+    margin: 15px auto;
+    width: 70%;
+    background-color: white;
+  }
+ .photo{
+    border: 1px solid black;
+    text-align: center;
+
+    padding: 15px;
+    margin: 10px;
+ }
+ table{
+    border-spacing:0px;
+    width: 96%;
+   
+    border-left: 1px solid gray;
+ }
+ table tr{
+   margin: 0px;
+   
+   
+ }
+ table th{
+    
+    color: white;
+    background-color: #242424;
+    margin: 0px;
+ }
+ table td{
+   border-bottom: 1px solid gray;
+   border-right: 1px solid gray;
+   margin: 0px;
+   padding-left: 10px;
+ }
+ #heji{
+   background-color: gray;
+ }
+ .navi{
+   background-color: white;
+   border: 1px solid gray;
+   width: 80%;
+   margin: auto;
+   padding: 15px;
+   text-align: center;
+   line-height: 40px;
+  
+ }
+ /*这里是main的css*/
+ article {
+   background: white;
+   margin: 30px;
+   padding: 20px;
+   display: block;
+   box-shadow: 1px 1px 1px 1px #848484
+ }
+ article h1{
+   padding: 5px;
+ }
+ article h2{
+   padding: 5px;
+ }
+ article .auther, .Atime{
+   color: #888888;
+   padding: 5px;
+ }
+ article p{
+   text-indent: 2em;
+    padding: 5px;
+ }
+ article a{
+    color: blue;
+ }
+ article a:hover{
+   color: black;
+ }
+ article img{
+   padding: 15px 0;
+  
+ }
+ article ul li{
+   list-style-type: none;/*去掉li的style就可以去掉前面的。*/
+ }
+ article ol{
+   margin: 10px 40px;
+ }
+ article table{
+   width: 100%;
+   border-collapse: collapse;
+  
+ }
+ article table th{
+   color: white;
+   background: black;
+ }
+ article table tr td{
+   border: 1px solid #ccc;
+ }
+ article .bottomline{
+        background: #ccc;
+        
+ }
+ article dl dd{
+   border: 1px solid #ccc;
+   margin: 15px;
+   width: 120px;
+ }
+ article dl dd span{
+    text-align: center;
+    display: block;
+    margin:5px; 
+ }
+ article dl dd img{
+  width: 110px;
+  padding: 10px 5px;
+ }
+
+ /*标题栏的问题*/
+ header{
+   background: #333;
+   position: relative;
+   height: 50px;
+ }
+ header img{
+   height: 45px;
+   margin-left:20px; 
+   margin-top: 2.5px;
+ }
+ header ul{
+   position: absolute;top: 0px;right: 10px;
+   list-style: none;
+   margin-left: 10px;
+ }
+ header ul li{
+   float: left;
+   width:90px;
+   text-align: center;
+   padding:15px;
+  
+ }
+ header ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 12px;
+ }
+ header ul li:hover{
+    background: #474747;
+    border-radius: 5px;
+    border-bottom: 1px solid red;
+ }
+
+ /*侧边栏问题*/
+ aside{
+   background: white;
+   margin: 30px;padding: 30px;
+   display: block;
+   
+ }
+ aside h4{
+   padding-left: 30px;
+   height: 40px;
+   line-height: 40px;
+   border-left: 2px solid gray;
+   text-align: left;
+ }
+
+  aside form div{
+    font-size: 14px;
+    margin:15px 0;
+}
+
+ aside form div .tips{
+   float: left;
+    width: 35%;
+   text-align: right;
+   padding-right: 15px;
+ }
+
+aside form div p{
+    margin-left:35%;
+    padding-left:15px;
+    font-size:15px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+ aside form div textarea{
+        width: 50%;
+        height: auto;
+
+}
+aside .submitbutton{
+  background-color: blue;
+  color: white;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: none;
+}
+ aside .submitbutton:hover{
+   background-clip: #00FFFF;
+   
+ }
+ /*底部信息*/
+  footer {
+      background: black;
+      color: white;
+      text-align: center;
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      font-size: 15px;
+  }
