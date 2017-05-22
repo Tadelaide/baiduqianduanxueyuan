@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #eee;
+    padding: 20px;
+}
+.body{
+    background: #999;
+    /*min-width: 600px;*/
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid black;
+    overflow: auto;
+    /*知道父元素的div给的比较小的时候可以利用overflow去扩展父元素的大小*/
+    /*当为scroll时可以自带一个下拉栏*/
+    padding: 20px;
+}
+body img{
+    width: 80px;
+}
+.team{
+    width: 160px;
+    float: left;
+    padding: 20px;
+    background: #eee;
+    border: 1px solid black;
+    
+    
+}
+.team span{
+    position: absolute;
+    float: left;
+    padding-left: 20px;
+}
+.main{
+    background: #eee;
+    /*position: relative;*/
+    margin-left: 220px;
+    margin-right: 140px;
+    padding: 20px;
+    border: 1px solid black;
+    /*display: block;*/
+    
+}
+.photo{
+    /*position: relative;*/
+    /*这个position的relative是指相同元素调整不同行的定位而已*/
+    float: right;
+    /*margin: 20px;*/
+    width: 120px;
+    background: #eee;
+    border: 1px solid black;
+    /*display: block;*/
+}
+.photo img{
+    /*position: relative;*/
+    /*float: right;*/
+    width: 80px;
+    height: 80px;
+    margin:20px;
+    display: block;
+}
+.main1 {
+    float: left;
+    width: 100%;
+    background: yellow;
+
+}
+.sub{
+    float: left;
+    background: blue;
+    width: 190px;
+    margin-left: -100%;
+    position: relative;
+    left: -190px;
+    /*本来margin-left是说从左往右移动多少，这次变成负值之后也就时往左移动多少*/
+    /*而这其中的100%也就时往左移动整整一行，也就时消除这一行，平行向上去一行*/
+}
+.extra{
+    float: left;
+    background: green;
+    width: 120px;
+    margin-left: -120px; 
+    position: relative;
+    right: -120px;
+}
+.container{
+    padding: 0 120px 0 190px;
+    /*overflow: auto;*/
+}
+
+.main2{
+    float: left;
+    background: black;
+    width: 100%;
+    color: wheat;
+}
+.left{
+    float: left;
+    background: yellow;
+    width: 190px;
+    margin-left: -100%;
+
+
+}
+.right{
+    float: left;
+    background: green;
+    width: 120px;
+    margin-left: -120px;
+
+}
+.container1{
+    padding: 0 120px 0 190px;
+}
